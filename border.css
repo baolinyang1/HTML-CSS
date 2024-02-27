@@ -1,0 +1,12 @@
+/* style.css */
+h1{
+    border: 3px solid hsl(262, 100%, 56%);
+    border-radius: 20px;
+}
+p{
+    border-bottom: 3px solid red;
+    border-top: 3px solid orange;
+    border-left: 3px dotted yellow;
+    border-right: 3px dotted green;
+    border-radius: 10px;
+}
