@@ -1,0 +1,39 @@
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bro Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- float = allows other elements to flow around it -->
+
+    <img src="pokeball.png" height="150" id="img1">
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, voluptates. Sequi, repellat corrupti iusto molestiae perspiciatis obcaecati cumque. Odit dolorum nemo velit magnam esse amet facere, numquam hic sunt necessitatibus?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, voluptates. Sequi, repellat corrupti iusto molestiae perspiciatis obcaecati cumque. Odit dolorum nemo velit magnam esse amet facere, numquam hic sunt necessitatibus?</p>
+
+    <img src="pikachu.png" height="150" id="img2">
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, voluptates. Sequi, repellat corrupti iusto molestiae perspiciatis obcaecati cumque. Odit dolorum nemo velit magnam esse amet facere, numquam hic sunt necessitatibus?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, voluptates. Sequi, repellat corrupti iusto molestiae perspiciatis obcaecati cumque. Odit dolorum nemo velit magnam esse amet facere, numquam hic sunt necessitatibus?</p>
+
+</body>
+</html> */
+
+/* style.css */
+body{
+    border: 3px solid;
+    display: flow-root;
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+#img2{
+    float: right;
+    margin-left: 10px;
+}
