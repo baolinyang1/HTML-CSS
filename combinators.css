@@ -1,0 +1,64 @@
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bro Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--
+        combinators = explains the relationship
+                                   between listed selectors
+
+                                    = descendant
+                                > = child
+                                + = adjacent sibling
+                               ~ = general sibling
+    -->
+
+    <div id="container">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
+
+    <p>This is #4</p>
+    <p>This is #5</p>
+
+</body>
+</html> */
+
+/* style.css */
+
+#container{
+    border: 2px solid;
+}
+
+/* descendant 
+#container p{
+    background-color: hsl(60, 100%, 70%);
+}
+*/
+
+/* child
+#container > p{
+    background-color: hsl(60, 100%, 70%);
+}
+*/
+
+/* general sibling
+#container ~ p{
+    background-color: hsl(60, 100%, 70%);
+}
+*/
+
+/* adjacent sibling
+#container + p{
+    background-color: hsl(60, 100%, 70%);
+}
+*/
